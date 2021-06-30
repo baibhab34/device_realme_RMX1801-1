@@ -10,10 +10,6 @@ vendor.oppo.camera.                              u:object_r:camera_prop:s0
 vendor.oppo.camera.fovc.enable                   u:object_r:camera_prop:s0
 vendor.oppo.camera.hal3.enable                   u:object_r:camera_prop:s0
 vendor.oppo.open.camera.name                     u:object_r:camera_prop:s0
-oppo.camera.packname                             u:object_r:vendor_default_prop:s0
-persist.camera.                                  u:object_r:vendor_default_prop:s0
-cpp.set.clock                                    u:object_r:vendor_default_prop:s0
-cameradaemon.SaveMemAtBoot                       u:object_r:vendor_default_prop:s0
 
 # Fingerprint
 oppo.fpc.sw.version                              u:object_r:oppo_fp_prop:s0
@@ -26,10 +22,6 @@ oppo.nlp.proxy                                   u:object_r:oppo_loc_prop:s0
 oppo.device.imeicache                            u:object_r:vendor_radio_prop:s0
 persist.oppo.nw.region.lock                      u:object_r:vendor_radio_prop:s0
 ro.oppo.nw.singlecard                            u:object_r:vendor_radio_prop:s0
-
-
-# Power
-vendor.powerhal.                                 u:object_r:vendor_power_prop:s0
 
 #Thermal
 vendor.thermal.config                            u:object_r:vendor_thermal_prop:s0

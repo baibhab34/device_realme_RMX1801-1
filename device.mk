@@ -324,10 +324,7 @@ PRODUCT_PACKAGES += \
 
 # Power
 PRODUCT_PACKAGES += \
-    android.hardware.power@1.3-service.xiaomi_sdm660-libperfmgr
-
-PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/configs/powerhint.json:$(TARGET_COPY_OUT_VENDOR)/etc/powerhint.json
+    android.hardware.power@1.2-service-qti
 
 #protobuf
 PRODUCT_COPY_FILES += \
@@ -392,6 +389,10 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/excluded-input-devices.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/excluded-input-devices.xml
+
+# Soong
+PRODUCT_SOONG_NAMESPACES += \
+    hardware/qcom/power
 
 # Telephony-ext
 PRODUCT_PACKAGES += \
